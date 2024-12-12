@@ -1,0 +1,113 @@
+#root {
+    background-color: white;
+    }
+
+.App {
+    display: flex;
+    border: 2px solid black;
+    width: 100em;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.Homepage {
+    display: block;
+    border: 2px solid goldenrod;
+   margin-right: auto;
+   width: 50em;
+}
+
+.Employee {
+    display: block;
+    border: 2px solid brown;
+    margin-left: auto;
+    width: 50em;
+}
+
+.EmployeeList {
+    border: 2px solid lightslategray;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    height: 50vh;
+}
+
+.Details {
+    border: 1px solid lightslategray;
+    height: 75px;
+}
+
+.Details h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2px;
+}
+
+.Details h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightslategray;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+}
+
+.searchbar {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 99.5%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 2px;
+    margin-right: 2px;
+
+}
+
+.border2 {
+    border: 2px solid limegreen;
+
+}
+
+.empList {
+    border: 2px solid rgb(187, 17, 187);
+    height: 89.9vh;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 2px;
+    
+}
+
+.empListItem {
+    display: flex;
+    align-items: center;
+}
+
+.empListItem img {
+    border-radius: 50%;
+    width: 120px;
+    float: left;
+    margin-left: 25px;
+    margin-top: auto;
+    
+}
+
+.block {
+     margin-left: 15px;
+    margin-top: auto;
+
+}
+
+.block h5 {
+    margin-top: 30%;
+}
+
+
+
